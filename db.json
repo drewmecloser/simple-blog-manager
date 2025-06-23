@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "author": "Sarah Johnson",
+      "date": "2024-01-15",
+      "image": "https://via.placeholder.com/400x200?text=React",
+      "content": "React is a powerful JavaScript library for building user interfaces. This post covers the basics of getting started with React development."
+    },
+    {
+      "id": 2,
+      "title": "The Future of Web Development",
+      "author": "Michael Chen",
+      "date": "2024-02-20",
+      "image": "https://via.placeholder.com/400x200?text=Web+Dev",
+      "content": "Explore the exciting trends shaping the future of web development, including new frameworks, tools, and paradigms."
+    }
+    ,
+    {
+      "id": 3,
+      "title": "Design Systems That Scale",
+      "author": "Emily Rodriguez",
+      "date": "2024-03-01",
+      "image": "https://via.placeholder.com/400x200?text=Design+Systems",
+      "content": "Learn how to create and implement robust design systems that promote consistency and efficiency across large-scale projects."
+    },
+    {
+      "id": 4,
+      "title": "TypeScript Best Practices",
+      "author": "David Lee",
+      "date": "2024-04-10",
+      "image": "https://via.placeholder.com/400x200?text=TypeScript",
+      "content": "Discover best practices for writing clean, maintainable, and scalable code with TypeScript."
+    }
+  ]
+}

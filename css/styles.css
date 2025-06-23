@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-posts {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 1px solid #eee;
+}
+
+#post-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#post-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+#post-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.post-detail-section {
+    flex: 2;
+    padding-left: 20px;
+}
+
+#post-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#new-post-form, #edit-post-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+#new-post-form label, #edit-post-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#new-post-form input,
+#new-post-form textarea,
+#edit-post-form input,
+#edit-post-form textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#new-post-form button, #edit-post-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#new-post-form button[type="submit"], #edit-post-form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+#new-post-form button[type="button"], #edit-post-form button[type="button"] {
+    background-color: #6c757d;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Pulse</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Post Pulse</h1>
+        <p>Modern blog post management</p>
+    </header>
+    <main>
+        <section class="blog-posts">
+            <h2>Blog Posts</h2>
+            <div id="post-list">
+                </div>
+            <div class="add-new-post-section">
+                <h3>+ Add New Post</h3>
+                <form id="new-post-form">
+                    <label for="new-post-title">Post Title:</label>
+                    <input type="text" id="new-post-title" name="title" required>
+
+                    <label for="new-post-author">Author Name:</label>
+                    <input type="text" id="new-post-author" name="author" required>
+
+                    <label for="new-post-image">Image URL:</label>
+                    <input type="url" id="new-post-image" name="image" required>
+
+                    <label for="new-post-content">Write your post content...</label>
+                    <textarea id="new-post-content" name="content" rows="10" required></textarea>
+
+                    <button type="submit">Add Post</button>
+                    <button type="button" id="cancel-add-post">Cancel</button>
+                </form>
+            </div>
+        </section>
+        <section class="post-detail-section">
+            <div id="post-detail">
+                <p>Nothing selected yet.</p>
+            </div>
+
+            <form id="edit-post-form" class="hidden">
+                <h4>Update Post Details</h4>
+                <label for="edit-title">Title:</label>
+                <input type="text" name="title" id="edit-title" class="p-2 border rounded-md w-full mb-2">
+                <label for="edit-content">Content:</label>
+                <textarea name="content" id="edit-content" rows="5" class="p-2 border rounded-md w-full mb-4"></textarea>
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">Update Post</button>
+                <button type="button" id="cancel-edit" class="bg-gray-400 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-md ml-2">Cancel</button>
+            </form>
+        </section>
+    </main>
+    <script src="./src/index.js"></script>
+</body>
+</html>

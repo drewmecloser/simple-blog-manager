@@ -5,7 +5,7 @@
       "title": "Getting Started with React",
       "author": "Sarah Johnson",
       "date": "2024-01-15",
-      "image": "https://via.placeholder.com/400x200?text=React",
+      "image": "https://images.unsplash.com/photo-1645070858656-816d780df8e0?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "content": "React is a powerful JavaScript library for building user interfaces. This post covers the basics of getting started with React development."
     },
     {
@@ -13,16 +13,15 @@
       "title": "The Future of Web Development",
       "author": "Michael Chen",
       "date": "2024-02-20",
-      "image": "https://via.placeholder.com/400x200?text=Web+Dev",
+      "image": "https://plus.unsplash.com/premium_photo-1663040543387-cb7c78c4f012?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "content": "Explore the exciting trends shaping the future of web development, including new frameworks, tools, and paradigms."
-    }
-    ,
+    },
     {
       "id": 3,
       "title": "Design Systems That Scale",
       "author": "Emily Rodriguez",
       "date": "2024-03-01",
-      "image": "https://via.placeholder.com/400x200?text=Design+Systems",
+      "image": "https://images.unsplash.com/photo-1581094485546-7910e5a5a599?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "content": "Learn how to create and implement robust design systems that promote consistency and efficiency across large-scale projects."
     },
     {
@@ -30,7 +29,7 @@
       "title": "TypeScript Best Practices",
       "author": "David Lee",
       "date": "2024-04-10",
-      "image": "https://via.placeholder.com/400x200?text=TypeScript",
+      "image": "https://images.unsplash.com/photo-1568716353609-12ddc5c67f04?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "content": "Discover best practices for writing clean, maintainable, and scalable code with TypeScript."
     }
   ]

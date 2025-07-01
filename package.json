@@ -1,0 +1,15 @@
+{
+  "name": "simple-blog-manager-api",
+  "version": "1.0.0",
+  "description": "A simple JSON server for the blog post manager app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
